@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('./src/services/environment').build();
 const app = require('./src/app');
 
 const port = process.env.PORT || 80;
